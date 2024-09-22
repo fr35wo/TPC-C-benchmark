@@ -20,7 +20,7 @@
        check load.sh script
 
 3. Start benchmark
-   * `./tpcc_start -h127.0.0.1 -P3306 -dtpcc1000 -uroot -w1000 -c32 -r10 -l10800`
+   * `./tpcc_start -h 127.0.0.1 -P 3306 -d tpcc1000 -u root -w 1000 -c32 -r10 -l10800`
    * |hostname| |port| |dbname| |user| |WAREHOUSES| |CONNECTIONS| |WARMUP TIME| |BENCHMARK TIME|
    * ref. tpcc_start --help for all options 
 
