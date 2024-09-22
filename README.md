@@ -43,3 +43,7 @@ Where:
 * 99%: 18.738: - The 99% Response time of New Order transactions per given interval. In this case it is 18.738 sec
 * max_rt: 213.169: - The Max Response time of New Order transactions per given interval. In this case it is 213.169 sec
 * the rest: `12919|98.778, 1292|101.096, 1293|443.955, 1293|670.842` is throughput and max response time for the other kind of transactions and can be ignored
+
+# change the buffer size
+![image](https://github.com/user-attachments/assets/dd198ac6-064e-49ac-a10c-cad80dc1579d)
+
