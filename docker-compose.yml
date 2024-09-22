@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 3307:3306
+    volumes:
+      - tpcc-mysql-data:/val/lib/mysql
+      - C:\Users\USER\Desktop\tpcc-mysql:/etc/mysql/conf.d
+    environment:
+      MYSQL_DATABASE: tpcc
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_ROOT_PASSWORD: 1234
+  tpcc:
+    image: tpcc-mysql:latest
+    tty: true
+    depends_on:
+     - mysql
+
+volumes:
+ tpcc-mysql-data:
