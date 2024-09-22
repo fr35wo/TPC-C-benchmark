@@ -1,3 +1,5 @@
+# TPC-C-benchmark
+
 1. Build binaries
    * `cd src ; make`
    ( you should have mysql_config available in $PATH)
@@ -41,5 +43,3 @@ Where:
 * 99%: 18.738: - The 99% Response time of New Order transactions per given interval. In this case it is 18.738 sec
 * max_rt: 213.169: - The Max Response time of New Order transactions per given interval. In this case it is 213.169 sec
 * the rest: `12919|98.778, 1292|101.096, 1293|443.955, 1293|670.842` is throughput and max response time for the other kind of transactions and can be ignored
-
-
