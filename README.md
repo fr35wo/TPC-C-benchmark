@@ -47,3 +47,5 @@ Where:
 # change the buffer size
 ![image](https://github.com/user-attachments/assets/dd198ac6-064e-49ac-a10c-cad80dc1579d)
 
+[21bf7620-f7b6-475a-a70f-3605a0168396_TPC-C_벤치마크__MySQL.pdf](https://github.com/user-attachments/files/17091814/21bf7620-f7b6-475a-a70f-3605a0168396_TPC-C_.__MySQL.pdf)
+
